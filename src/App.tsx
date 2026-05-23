@@ -75,16 +75,11 @@ export default function App() {
         </BentoCard>
 
         {/* Card 3: Current Focus */}
-        <BentoCard className="md:col-span-1 justify-center items-start">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full bg-sage/10 flex items-center justify-center text-sage">
-              <Briefcase size={20} />
-            </div>
-            <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40">Current Focus</h2>
-          </div>
-          <h3 className="font-serif text-xl font-medium mb-2">Dental Surgeon</h3>
-          <p className="text-charcoal/70 text-sm mb-1">All Smile Dental Clinic</p>
-          <p className="text-charcoal/50 text-xs font-medium uppercase tracking-wider">Since Nov 2025</p>
+        <BentoCard className="md:col-span-1 flex flex-col justify-center items-start">
+          <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-4">Current Focus</h2>
+          <p className="font-serif text-xl font-medium mb-2">Dental Surgeon</p>
+          <p className="text-charcoal/70 text-sm mb-1">All Smile Dental Home, Samakhusi, Kathmandu</p>
+          <p className="text-charcoal/50 text-xs font-medium uppercase tracking-wider mt-1">Since Nov 2025</p>
         </BentoCard>
 
         {/* Card 4: Past Experience */}
