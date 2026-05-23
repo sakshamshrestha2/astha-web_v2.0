@@ -217,7 +217,9 @@ export default function App() {
             Download CV (PDF)
           </button>
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/dr-astha-pokhrel-ds/"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Visit Dr. Astha Pokhrel's LinkedIn profile"
             className="text-xs font-semibold tracking-widest text-charcoal/60 hover:text-sage uppercase transition-colors"
           >
