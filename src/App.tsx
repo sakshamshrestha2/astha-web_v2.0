@@ -58,7 +58,7 @@ export default function App() {
             <h1 className="font-serif text-[clamp(4.25rem,10vw,8rem)] leading-[0.9] font-medium tracking-[-0.04em] mb-4 md:mb-6 text-charcoal">
               Dr. Astha<br className="hidden sm:block" /> Pokhrel
             </h1>
-            <p className="font-sans text-xl md:text-2xl text-sage font-medium tracking-wide">
+            <p className="font-light leading-[1.7] font-sans text-xl md:text-2xl text-sage tracking-wide">
               Dental Surgeon
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function App() {
         <BentoCard className="md:col-span-1 justify-center relative">
           <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-4">Bio</h2>
           <div className="space-y-4">
-            <p className="text-charcoal/80 leading-relaxed font-medium text-sm sm:text-base">
+            <p className="font-light leading-[1.7] text-charcoal/80 text-sm sm:text-base">
               Detail-oriented Dental Surgeon dedicated to providing comprehensive patient care. Experienced in advanced restorative procedures, preventive dentistry, and precise oral diagnosis, with a strong commitment to clinical excellence.
             </p>
           </div>
@@ -77,9 +77,9 @@ export default function App() {
         {/* Card 3: Current Focus */}
         <BentoCard className="md:col-span-1 flex flex-col justify-center items-start">
           <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-4">Current Focus</h2>
-          <p className="font-serif text-xl font-medium mb-2">Dental Surgeon</p>
-          <p className="text-charcoal/70 text-sm mb-1">All Smile Dental Home, Samakhusi, Kathmandu</p>
-          <p className="text-charcoal/50 text-xs font-medium uppercase tracking-wider mt-1">Since Nov 2025</p>
+          <p className="font-light leading-[1.7] font-serif text-xl mb-2">Dental Surgeon</p>
+          <p className="font-light leading-[1.7] text-charcoal/70 text-sm mb-1">All Smile Dental Home, Samakhusi, Kathmandu</p>
+          <p className="font-light leading-[1.7] text-charcoal/50 text-xs uppercase tracking-wider mt-1">Since Nov 2025</p>
         </BentoCard>
 
         {/* Card 4: Past Experience */}
@@ -90,7 +90,7 @@ export default function App() {
               <h3 className="font-medium text-charcoal group-hover:text-sage transition-colors">
                 Harmony Dental Care, Pokhara
               </h3>
-              <p className="text-xs text-charcoal/50 font-medium">28th Sep 2025 - 15th Nov 2025</p>
+              <p className="font-light leading-[1.7] text-xs text-charcoal/50">28th Sep 2025 - 15th Nov 2025</p>
             </div>
             <div className="w-full h-px bg-black/5" />
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 group">
@@ -98,9 +98,9 @@ export default function App() {
                 <h3 className="font-medium text-charcoal group-hover:text-sage transition-colors">
                   Kantipur Dental College/Hospital, Kathmandu
                 </h3>
-                <p className="text-xs text-charcoal/60 mt-1">Clinical Experience (Rotatory Internship)</p>
+                <p className="font-light leading-[1.7] text-xs text-charcoal/60 mt-1">Clinical Experience (Rotatory Internship)</p>
               </div>
-              <p className="text-xs text-charcoal/50 font-medium whitespace-nowrap sm:ml-4">Sep 2024 - Aug 2025</p>
+              <p className="font-light leading-[1.7] text-xs text-charcoal/50 whitespace-nowrap sm:ml-4">Sep 2024 - Aug 2025</p>
             </div>
           </div>
         </BentoCard>
@@ -116,16 +116,16 @@ export default function App() {
             <a href="#" className="flex items-start gap-4 hover:opacity-80 transition-opacity">
               <MapPin size={20} className="mt-0.5 opacity-80 shrink-0" />
               <div>
-                <p className="text-xs text-purewhite/70 font-medium mb-1 uppercase tracking-wider">Location</p>
-                <p className="font-medium">Basundhara, Kathmandu</p>
+                <p className="font-light leading-[1.7] text-xs text-purewhite/70 mb-1 uppercase tracking-wider">Location</p>
+                <p className="font-light leading-[1.7]">Basundhara, Kathmandu</p>
               </div>
             </a>
             
             <a href="mailto:asthapokhrel23@gmail.com" aria-label="Send an email to Dr. Astha Pokhrel" className="flex items-start gap-4 hover:opacity-80 transition-opacity">
               <Mail size={20} className="mt-0.5 opacity-80 shrink-0" />
               <div>
-                <p className="text-xs text-purewhite/70 font-medium mb-1 uppercase tracking-wider">Email</p>
-                <p className="font-medium">asthapokhrel23@gmail.com</p>
+                <p className="font-light leading-[1.7] text-xs text-purewhite/70 mb-1 uppercase tracking-wider">Email</p>
+                <p className="font-light leading-[1.7]">asthapokhrel23@gmail.com</p>
               </div>
             </a>
           </div>
@@ -143,7 +143,7 @@ export default function App() {
                 <h3 className="font-medium text-charcoal group-hover:text-sage transition-colors mb-1">
                   Hands-on "Rotary Endodontics Simplified"
                 </h3>
-                <p className="text-xs text-charcoal/50">12th Dec, 2025</p>
+                <p className="font-light leading-[1.7] text-xs text-charcoal/50">12th Dec, 2025</p>
               </div>
             </div>
             
@@ -155,7 +155,7 @@ export default function App() {
                 <h3 className="font-medium text-charcoal group-hover:text-sage transition-colors mb-1">
                   Hands-on "Mastering Bio Ceramic Techniques"
                 </h3>
-                <p className="text-xs text-charcoal/50">5th Jun, 2025</p>
+                <p className="font-light leading-[1.7] text-xs text-charcoal/50">5th Jun, 2025</p>
               </div>
             </div>
           </div>
@@ -173,9 +173,9 @@ export default function App() {
             <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
               <div>
                 <h3 className="font-serif text-2xl font-medium mb-2 group-hover:text-sage transition-colors">Bachelor of Dental Surgery (BDS)</h3>
-                <p className="text-charcoal/70 text-sm">Kantipur Dental College Hospital & Research Center, Kathmandu</p>
+                <p className="font-light leading-[1.7] text-charcoal/70 text-sm">Kantipur Dental College Hospital & Research Center, Kathmandu</p>
               </div>
-              <p className="text-xs font-medium text-charcoal/50 sm:text-right mt-2 sm:mt-0 sm:ml-4 whitespace-nowrap">
+              <p className="font-light leading-[1.7] text-xs text-charcoal/50 sm:text-right mt-2 sm:mt-0 sm:ml-4 whitespace-nowrap">
                 Oct 2018 - Aug 2025
               </p>
             </div>
@@ -185,9 +185,9 @@ export default function App() {
             <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
               <div>
                 <h3 className="font-serif text-xl sm:text-2xl font-medium mb-2 group-hover:text-sage transition-colors">National Examinations Board (+2)</h3>
-                <p className="text-charcoal/70 text-sm">Sagarmatha Secondary School, Pokhara</p>
+                <p className="font-light leading-[1.7] text-charcoal/70 text-sm">Sagarmatha Secondary School, Pokhara</p>
               </div>
-              <p className="text-xs font-medium text-charcoal/50 sm:text-right mt-2 sm:mt-0 sm:ml-4 whitespace-nowrap">
+              <p className="font-light leading-[1.7] text-xs text-charcoal/50 sm:text-right mt-2 sm:mt-0 sm:ml-4 whitespace-nowrap">
                 Jul 2016 - May 2018
               </p>
             </div>
