@@ -67,7 +67,7 @@ body {
     margin-bottom: 0 !important;
   }
 
-  .min-h-screen {
+  .min-h-\[100dvh\] {
     min-height: auto !important;
   }
 

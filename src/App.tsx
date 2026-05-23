@@ -39,7 +39,7 @@ export default function App() {
   );
 
   return (
-    <div className="min-h-screen bg-offwhite py-12 px-4 md:py-20 md:px-8 selection:bg-sage/30 selection:text-charcoal font-sans text-charcoal">
+    <div className="min-h-[100dvh] bg-offwhite py-12 px-4 md:py-20 md:px-8 selection:bg-sage/30 selection:text-charcoal font-sans text-charcoal">
       <motion.main
         className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[auto]"
         initial="hidden"
@@ -205,7 +205,7 @@ export default function App() {
       </motion.main>
       
       {/* Footer */}
-      <footer className="max-w-6xl mx-auto mt-16 pt-8 pb-4 px-4 md:px-0 border-t border-black/5 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <footer className="max-w-6xl mx-auto mt-8 md:mt-16 pt-8 pb-4 px-4 md:px-0 border-t border-black/5 flex flex-col sm:flex-row justify-center sm:justify-between items-center text-center gap-3 md:gap-4 flex-wrap">
         <p className="text-xs font-medium text-charcoal/50">
           &copy; 2026 Dr. Astha Pokhrel. All rights reserved.
         </p>
