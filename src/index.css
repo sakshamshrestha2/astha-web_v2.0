@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-offwhite: #F7F7F8;
+  --color-purewhite: #FFFFFF;
+  --color-charcoal: #1C1C1E;
+  --color-sage: #A1B5A8;
+}
+
+body {
+  background-color: var(--color-offwhite);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media print {
+  @page { margin: 1.5cm; }
+
+  body, html {
+    background-color: #FFFFFF !important;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
+
+  main {
+    display: block !important;
+  }
+
+  main > div {
+    display: block !important;
+    background-color: #FFFFFF !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    page-break-inside: avoid;
+    transform: none !important;
+    padding: 1.5rem 0 !important;
+  }
+
+  main > div:last-child {
+    border-bottom: none !important;
+  }
+
+  /* Force pure black text */
+  *, h1, h2, h3, p, span, div, a {
+    color: #000000 !important;
+  }
+
+  /* Ensure SVG icons have black stroke/fill */
+  svg {
+    color: #000000 !important;
+  }
+}
