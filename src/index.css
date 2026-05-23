@@ -29,6 +29,8 @@ body {
     background-color: #FFFFFF !important;
     font-size: 10pt !important;
     line-height: 1.2 !important;
+    min-width: 1024px !important;
+    width: 1024px !important;
   }
 
   .print-hide {
@@ -39,6 +41,7 @@ body {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
     gap: 0.75rem !important;
+    width: 100% !important;
   }
 
   main > div {
