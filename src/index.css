@@ -20,10 +20,15 @@ body {
 }
 
 @media print {
-  @page { margin: 1.5cm; }
+  @page { 
+    size: A4;
+    margin: 1cm;
+  }
 
   body, html {
     background-color: #FFFFFF !important;
+    font-size: 10pt !important;
+    line-height: 1.2 !important;
   }
 
   .print-hide {
@@ -31,22 +36,45 @@ body {
   }
 
   main {
-    display: block !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem !important;
   }
 
   main > div {
-    display: block !important;
+    display: flex !important;
     background-color: #FFFFFF !important;
     box-shadow: none !important;
     border-radius: 0 !important;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-    page-break-inside: avoid;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
     transform: none !important;
-    padding: 1.5rem 0 !important;
+    padding: 1rem !important;
   }
 
-  main > div:last-child {
-    border-bottom: none !important;
+  main > div:nth-child(1),
+  main > div:nth-child(4),
+  main > div:nth-child(7) {
+    grid-column: span 2 !important;
+  }
+
+  /* Reduce empty space taking up vertical height */
+  .py-12, .md\:py-20, .mt-32, .md\:mt-48 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .min-h-screen {
+    min-height: auto !important;
+  }
+
+  h1 {
+    font-size: 2.25rem !important;
+    line-height: 1 !important;
+    margin-bottom: 0.5rem !important;
   }
 
   /* Force pure black text */
