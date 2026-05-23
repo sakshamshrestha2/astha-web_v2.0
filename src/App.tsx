@@ -4,7 +4,7 @@
  */
 
 import { motion } from "motion/react";
-import { MapPin, Phone, Mail, Award, Stethoscope, GraduationCap, Briefcase, FileBadge } from "lucide-react";
+import { MapPin, Phone, Mail, Award, Stethoscope, GraduationCap, Briefcase } from "lucide-react";
 import React from "react";
 
 export default function App() {
@@ -54,16 +54,13 @@ export default function App() {
             </svg>
           </div>
           <div className="mt-32 md:mt-48 z-10 relative">
+            <span className="block text-xs uppercase tracking-[2px] text-charcoal/40 mb-4 font-medium">NMC REG. 39705</span>
             <h1 className="font-serif text-[clamp(4.25rem,10vw,8rem)] leading-[0.9] font-medium tracking-[-0.04em] mb-4 md:mb-6 text-charcoal">
               Dr. Astha<br className="hidden sm:block" /> Pokhrel
             </h1>
-            <p className="font-sans text-xl md:text-2xl text-sage font-medium mb-6 md:mb-8 tracking-wide">
+            <p className="font-sans text-xl md:text-2xl text-sage font-medium tracking-wide">
               Dental Surgeon
             </p>
-            <div className="inline-flex items-center gap-2 bg-offwhite/80 backdrop-blur-md px-4 py-2 rounded-full border border-black/5 shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
-              <FileBadge size={16} className="text-sage" />
-              <span className="text-sm font-medium text-charcoal/80">NMC Registration No.: 39705</span>
-            </div>
           </div>
         </BentoCard>
 
