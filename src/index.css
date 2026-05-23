@@ -77,6 +77,11 @@ body {
     margin-bottom: 0.5rem !important;
   }
 
+  /* Hide footer entirely in print view */
+  footer {
+    display: none !important;
+  }
+
   /* Force pure black text */
   *, h1, h2, h3, p, span, div, a {
     color: #000000 !important;
