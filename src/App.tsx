@@ -129,7 +129,7 @@ export default function App() {
               </div>
             </a>
             
-            <a href="mailto:asthapokhrel23@gmail.com" className="flex items-start gap-4 hover:opacity-80 transition-opacity">
+            <a href="mailto:asthapokhrel23@gmail.com" aria-label="Send an email to Dr. Astha Pokhrel" className="flex items-start gap-4 hover:opacity-80 transition-opacity">
               <Mail size={20} className="mt-0.5 opacity-80 shrink-0" />
               <div>
                 <p className="text-xs text-purewhite/70 font-medium mb-1 uppercase tracking-wider">Email</p>
@@ -218,6 +218,7 @@ export default function App() {
           </button>
           <a 
             href="#" 
+            aria-label="Visit Dr. Astha Pokhrel's LinkedIn profile"
             className="text-xs font-semibold tracking-widest text-charcoal/60 hover:text-sage uppercase transition-colors"
           >
             Connect on LinkedIn
