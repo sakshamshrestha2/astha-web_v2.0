@@ -49,8 +49,8 @@ export default function App() {
         {/* Card 1: Hero (Span 2x2) */}
         <BentoCard className="md:col-span-2 md:row-span-2 justify-end relative overflow-hidden group">
           <div className="absolute -top-12 -right-12 md:-top-20 md:-right-20 text-sage opacity-[0.05] group-hover:opacity-[0.08] transition-all duration-1000 ease-in-out group-hover:rotate-[15deg] group-hover:scale-110 pointer-events-none z-0">
-            <svg viewBox="0 0 100 100" className="w-[300px] h-[300px] md:w-[500px] md:h-[500px]" fill="currentColor">
-              <path d="M35 0h30v35h35v30H65v35H35V65H0V35h35V0z" />
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="w-[300px] h-[300px] md:w-[500px] md:h-[500px]">
+              <path d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 0 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5" />
             </svg>
           </div>
           <div className="mt-32 md:mt-48 z-10 relative">
