@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://www.yourdomain.com/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -55,6 +57,28 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      window.onload = function() {
+        if (window.top !== window.self) {
+          try {
+            window.top.location = window.self.location;
+          } catch(e) {}
+        }
+        
+        var checkExist = setInterval(function() {
+          var secureEmailEl = document.getElementById("secure-email");
+          if (secureEmailEl) {
+            var emailStr = ["asthapokhrel23", "@", "gmail", ".com"].join("");
+            secureEmailEl.href = "mailto:" + emailStr;
+            var textElems = secureEmailEl.getElementsByTagName("p");
+            if (textElems.length > 1) {
+              textElems[1].textContent = emailStr;
+            }
+            clearInterval(checkExist);
+          }
+        }, 100);
+      };
+    </script>
   </body>
 </html>
 

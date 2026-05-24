@@ -122,11 +122,11 @@ export default function App() {
               </div>
             </a>
             
-            <a href="mailto:asthapokhrel23@gmail.com" aria-label="Send an email to Dr. Astha Pokhrel" className="flex items-start gap-4 hover:opacity-80 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-4 outline-none rounded-sm">
+            <a id="secure-email" aria-label="Send an email to Dr. Astha Pokhrel" className="flex items-start gap-4 hover:opacity-80 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-4 outline-none rounded-sm">
               <Mail size={20} className="mt-0.5 opacity-80 shrink-0" />
               <div>
                 <p className="font-light leading-[1.7] text-xs text-purewhite/70 mb-1 uppercase tracking-wider">Email</p>
-                <p className="font-light leading-[1.7]">asthapokhrel23@gmail.com</p>
+                <p className="font-light leading-[1.7]"></p>
               </div>
             </a>
           </div>
