@@ -79,7 +79,8 @@ export default function App() {
           <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-4">Current Focus</h2>
           <p className="font-light leading-[1.7] font-serif text-xl mb-2">Dental Surgeon</p>
           <p className="font-light leading-[1.7] text-charcoal/70 text-sm mb-1">All Smile Dental Home, Samakhusi, Kathmandu</p>
-          <p className="font-light leading-[1.7] text-charcoal/50 text-xs uppercase tracking-wider mt-1">Since Nov 2025</p>
+          <p className="text-[#8E8E93] text-[0.85rem] before:content-['●'] before:mr-[6px] before:text-sage before:animate-pulse">Accepting New Patients</p>
+          <p className="font-light leading-[1.7] text-charcoal/50 text-xs uppercase tracking-wider mt-2">Since Nov 2025</p>
         </BentoCard>
 
         {/* Card 4: Past Experience */}
@@ -206,7 +207,7 @@ export default function App() {
             onClick={() => window.print()}
             className="text-xs font-semibold tracking-widest text-charcoal/60 hover:text-sage uppercase transition-colors"
           >
-            Download CV (PDF)
+            Download CV
           </button>
           <a 
             href="https://www.linkedin.com/in/dr-astha-pokhrel-ds/"
