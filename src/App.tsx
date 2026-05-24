@@ -49,7 +49,7 @@ export default function App() {
         {/* Card 1: Hero (Span 2x2) */}
         <BentoCard className="md:col-span-2 md:row-span-2 justify-end relative overflow-hidden group">
           <div className="absolute -top-12 -right-12 md:-top-20 md:-right-20 text-sage opacity-[0.05] group-hover:opacity-[0.08] transition-all duration-1000 ease-in-out group-hover:rotate-[15deg] group-hover:scale-110 pointer-events-none z-0">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="w-[300px] h-[300px] md:w-[500px] md:h-[500px]">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="w-[300px] h-[300px] md:w-[500px] md:h-[500px]">
               <path d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 0 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5" />
             </svg>
           </div>
@@ -192,11 +192,16 @@ export default function App() {
       </motion.main>
       
       {/* Footer */}
-      <footer className="max-w-6xl mx-auto mt-8 md:mt-16 pt-8 pb-4 px-4 md:px-0 border-t border-black/5 flex flex-col sm:flex-row justify-center sm:justify-between items-center text-center gap-3 md:gap-4 flex-wrap">
-        <p className="text-xs font-medium text-charcoal/50">
-          &copy; 2026 Dr. Astha Pokhrel. All rights reserved.
-        </p>
-        <div className="flex items-center gap-6 print-hide">
+      <footer className="max-w-6xl mx-auto mt-8 md:mt-16 pt-8 pb-4 px-4 md:px-0 border-t border-black/5 flex flex-col sm:flex-row justify-center sm:justify-between items-center sm:items-start text-center sm:text-left gap-3 md:gap-4 flex-wrap">
+        <div className="flex flex-col items-center sm:items-start">
+          <p className="text-xs font-medium text-charcoal/50">
+            &copy; 2026 Dr. Astha Pokhrel. All rights reserved.
+          </p>
+          <p className="text-[0.75rem] text-[#A1A1AA] mt-2 max-w-lg">
+            Disclaimer: The content on this website is for informational purposes only and does not constitute professional medical advice, diagnosis, or treatment.
+          </p>
+        </div>
+        <div className="flex items-center justify-center gap-6 print-hide mt-2 sm:mt-0">
           <button
             onClick={() => window.print()}
             className="text-xs font-semibold tracking-widest text-charcoal/60 hover:text-sage uppercase transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-4 outline-none rounded-sm"
