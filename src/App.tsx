@@ -59,7 +59,7 @@ export default function App() {
               Dr. Astha<br className="hidden sm:block" /> Pokhrel
             </h1>
             <p className="font-light leading-[1.7] font-sans text-xl md:text-2xl text-sage tracking-wide">
-              Dental Surgeon
+              BDS, Dental Surgeon
             </p>
           </div>
         </BentoCard>
@@ -84,22 +84,16 @@ export default function App() {
         </BentoCard>
 
         {/* Card 4: Past Experience */}
-        <BentoCard className="md:col-span-2">
+        <BentoCard className="md:col-span-2 flex flex-col justify-start">
           <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-6">Past Experience</h2>
-          <div className="space-y-6">
-            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 group">
-              <h3 className="font-medium text-charcoal group-hover:text-sage transition-colors">
-                Harmony Dental Care, Pokhara
-              </h3>
-              <p className="font-light leading-[1.7] text-xs text-charcoal/50">28th Sep 2025 - 15th Nov 2025</p>
-            </div>
-            <div className="w-full h-px bg-black/5" />
-            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 group">
+          <div className="flex flex-col justify-start items-start w-full">
+            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 group w-full">
               <div>
                 <h3 className="font-medium text-charcoal group-hover:text-sage transition-colors">
                   Kantipur Dental College/Hospital, Kathmandu
                 </h3>
                 <p className="font-light leading-[1.7] text-xs text-charcoal/60 mt-1">Clinical Experience (Rotatory Internship)</p>
+                <p className="font-light leading-[1.6] text-[0.95rem] text-[#8E8E93] max-w-[85%] mt-3">Completed a comprehensive clinical rotatory internship, delivering primary patient care and developing hands-on proficiency across all major dental departments.</p>
               </div>
               <p className="font-light leading-[1.7] text-xs text-charcoal/50 whitespace-nowrap sm:ml-4">Sep 2024 - Aug 2025</p>
             </div>
