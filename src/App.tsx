@@ -75,7 +75,7 @@ export default function App() {
           <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-4">Bio</h2>
           <div className="space-y-4">
             <p className="font-light leading-[1.7] text-charcoal/80 text-sm sm:text-base">
-              Detail-oriented Dental Surgeon dedicated to providing comprehensive patient care. Experienced in advanced restorative procedures, preventive dentistry, and precise oral diagnosis, with a strong commitment to clinical excellence.
+              Detail-oriented Dental Surgeon and Dentist dedicated to providing comprehensive patient care in Kathmandu. Experienced in advanced restorative procedures, preventive dentistry, and precise oral diagnosis, with a strong commitment to clinical excellence within local dental clinics.
             </p>
           </div>
         </BentoCard>
