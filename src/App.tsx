@@ -114,13 +114,13 @@ export default function App() {
           <h2 className="text-xs font-semibold uppercase tracking-widest text-purewhite/70 mb-6 z-10 relative">Contact</h2>
           
           <div className="space-y-6 z-10 relative">
-            <a href="#" className="flex items-start gap-4 hover:opacity-80 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-4 outline-none rounded-sm">
+            <div className="flex items-start gap-4 rounded-sm">
               <MapPin size={20} className="mt-0.5 opacity-80 shrink-0" />
               <div>
                 <p className="font-light leading-[1.7] text-xs text-purewhite/70 mb-1 uppercase tracking-wider">Location</p>
                 <p className="font-light leading-[1.7]">Basundhara, Kathmandu</p>
               </div>
-            </a>
+            </div>
             
             <a id="secure-email" aria-label="Send an email to Dr. Astha Pokhrel" className="flex items-start gap-4 hover:opacity-80 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-4 outline-none rounded-sm">
               <Mail size={20} className="mt-0.5 opacity-80 shrink-0" />
