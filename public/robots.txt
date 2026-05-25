@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# Block AI scrapers from training, but allow normal search engines
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
 Sitemap: https://asthapokhrel.com.np/sitemap.xml
