@@ -204,7 +204,7 @@ export default function App() {
             &copy; 2026 Dr. Astha Pokhrel. All rights reserved.
           </p>
           <p className="text-[0.75rem] text-[#A1A1AA] mt-2 max-w-lg">
-            Disclaimer: The content on this website is for informational purposes only and does not constitute professional medical advice, diagnosis, or treatment.
+            Disclaimer: The content on this website is for informational purposes only and does not constitute professional medical advice, diagnosis, or treatment. Please do not email sensitive personal or clinical health information, as email communication is not entirely secure.
           </p>
         </div>
         <div className="flex items-center justify-center gap-6 print-hide mt-2 sm:mt-0">
