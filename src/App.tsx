@@ -199,7 +199,7 @@ export default function App() {
       
       {/* Footer */}
       <footer className="max-w-6xl mx-auto mt-8 md:mt-16 pt-8 pb-4 px-4 md:px-0 border-t border-black/5 flex flex-col sm:flex-row justify-center sm:justify-between items-center sm:items-start text-center sm:text-left gap-3 md:gap-4 flex-wrap">
-        <div className="flex flex-col items-center sm:items-start">
+        <div className="flex flex-col items-center sm:items-start text-center md:text-left">
           <p className="text-xs font-medium text-charcoal/50">
             &copy; 2026 Dr. Astha Pokhrel. All rights reserved.
           </p>
