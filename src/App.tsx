@@ -54,6 +54,12 @@ export default function App() {
             </svg>
           </div>
           <div className="mt-32 md:mt-48 z-10 relative">
+            <img 
+              src="https://i.imgur.com/Z9LATCu.jpeg" 
+              alt="Dr. Astha Pokhrel, BDS - Dental Surgeon in Kathmandu, Nepal" 
+              className="sr-only" 
+              referrerPolicy="no-referrer"
+            />
             <span className="block text-xs uppercase tracking-[2px] text-charcoal/40 mb-4 font-medium">NMC REG. 39705</span>
             <h1 className="font-serif text-[clamp(4.25rem,10vw,8rem)] leading-[0.9] font-medium tracking-[-0.04em] mb-4 md:mb-6 text-charcoal">
               Dr. Astha<br className="hidden sm:block" /> Pokhrel

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asthapokhrel.com.np/sitemap.xml
