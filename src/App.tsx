@@ -99,7 +99,7 @@ export default function App() {
                   Kantipur Dental College/Hospital, Kathmandu
                 </h3>
                 <p className="font-light leading-[1.7] text-xs text-charcoal/60 mt-1">Clinical Experience (Rotatory Internship)</p>
-                <p className="font-light leading-[1.6] text-[0.95rem] text-[#8E8E93] max-w-[85%] mt-3">Completed a comprehensive clinical rotatory internship, delivering primary patient care and developing hands-on proficiency across all major dental departments.</p>
+                <p className="font-light leading-[1.6] text-[0.95rem] text-[#8E8E93] max-w-[85%] mt-3">Completed a comprehensive clinical rotatory internship, delivering primary patient care as a clinical dentist and developing hands-on proficiency across all major dental surgery departments.</p>
               </div>
               <p className="font-light leading-[1.7] text-xs text-charcoal/50 whitespace-nowrap sm:ml-4">Sep 2024 - Aug 2025</p>
             </div>
