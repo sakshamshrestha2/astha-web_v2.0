@@ -122,11 +122,11 @@ export default function App() {
               </div>
             </div>
             
-            <a id="secure-email" aria-label="Send an email to Dr. Astha Pokhrel" className="flex items-start gap-4 hover:opacity-80 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-4 outline-none rounded-sm">
+            <a id="secure-email" href="mailto:asthapokhrel23@gmail.com" aria-label="Send an email to Dr. Astha Pokhrel" className="flex items-start gap-4 hover:opacity-80 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-4 outline-none rounded-sm">
               <Mail size={20} className="mt-0.5 opacity-80 shrink-0" />
               <div>
                 <p className="font-light leading-[1.7] text-xs text-purewhite/70 mb-1 uppercase tracking-wider">Email</p>
-                <p className="font-light leading-[1.7]"></p>
+                <p className="font-light leading-[1.7]">asthapokhrel23@gmail.com</p>
               </div>
             </a>
           </div>
@@ -136,6 +136,18 @@ export default function App() {
         <BentoCard className="md:col-span-1">
           <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40 mb-6">Key Certifications</h2>
           <div className="space-y-6">
+            <div className="flex gap-4 items-start group">
+              <div className="w-8 h-8 rounded-full bg-sage/10 flex items-center justify-center text-sage shrink-0 mt-1">
+                <Award size={16} />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-medium text-charcoal group-hover:text-sage transition-colors mb-1">
+                  Nepal Medical Council (NMC)
+                </h3>
+                <p className="font-light leading-[1.7] text-xs text-charcoal/50">Registered Dental Surgeon</p>
+              </div>
+            </div>
+            
             <div className="flex gap-4 items-start group">
               <div className="w-8 h-8 rounded-full bg-sage/10 flex items-center justify-center text-sage shrink-0 mt-1">
                 <Award size={16} />
@@ -170,13 +182,13 @@ export default function App() {
             </div>
             <h2 className="text-xs font-semibold uppercase tracking-widest text-charcoal/40">Education</h2>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
               <div>
-                <h3 className="font-serif text-2xl font-medium mb-2 group-hover:text-sage transition-colors">Bachelor of Dental Surgery (BDS)</h3>
+                <h3 className="font-serif text-2xl font-medium mb-1 group-hover:text-sage transition-colors">Bachelor of Dental Surgery (BDS)</h3>
                 <p className="font-light leading-[1.7] text-charcoal/70 text-sm">Kantipur Dental College Hospital & Research Center, Kathmandu</p>
               </div>
-              <p className="font-light leading-[1.7] text-xs text-charcoal/50 sm:text-right mt-2 sm:mt-0 sm:ml-4 whitespace-nowrap">
+              <p className="font-light leading-[1.7] text-xs text-charcoal/50 sm:text-right mt-1 sm:mt-0 sm:ml-4 whitespace-nowrap">
                 Oct 2018 - Aug 2025
               </p>
             </div>
@@ -185,11 +197,23 @@ export default function App() {
             
             <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
               <div>
-                <h3 className="font-serif text-xl sm:text-2xl font-medium mb-2 group-hover:text-sage transition-colors">National Examinations Board (+2)</h3>
+                <h3 className="font-serif text-2xl font-medium mb-1 group-hover:text-sage transition-colors">National Examinations Board (+2)</h3>
                 <p className="font-light leading-[1.7] text-charcoal/70 text-sm">Sagarmatha Secondary School, Pokhara</p>
               </div>
-              <p className="font-light leading-[1.7] text-xs text-charcoal/50 sm:text-right mt-2 sm:mt-0 sm:ml-4 whitespace-nowrap">
+              <p className="font-light leading-[1.7] text-xs text-charcoal/50 sm:text-right mt-1 sm:mt-0 sm:ml-4 whitespace-nowrap">
                 Jul 2016 - May 2018
+              </p>
+            </div>
+
+            <div className="w-full h-px bg-black/5" />
+            
+            <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
+              <div>
+                <h3 className="font-serif text-2xl font-medium mb-1 group-hover:text-sage transition-colors">School Leaving Certificate (SLC)</h3>
+                <p className="font-light leading-[1.7] text-charcoal/70 text-sm">Sainik Awasiya Mahavidyalaya, Pokhara</p>
+              </div>
+              <p className="font-light leading-[1.7] text-xs text-charcoal/50 sm:text-right mt-1 sm:mt-0 sm:ml-4 whitespace-nowrap">
+                Graduated 2016
               </p>
             </div>
           </div>
@@ -225,6 +249,7 @@ export default function App() {
           </a>
         </div>
       </footer>
+
     </div>
   );
 }
